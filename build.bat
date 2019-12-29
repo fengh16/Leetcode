@@ -1,5 +1,5 @@
 @echo off
-call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
+call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat"
 cd /d %1
 mkdir build
 set compilerflags=/Od /Zi /EHsc /Wall /std:c++14
