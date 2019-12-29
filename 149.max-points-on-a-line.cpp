@@ -51,3 +51,11 @@ public:
 };
 // @lc code=end
 
+int main() {
+    vector<vector<int>> v;
+    v.push_back({1, 1});
+    v.push_back({2, 2});
+    v.push_back({3, 3});
+    cout << Solution().maxPoints(v);
+    return 0;
+}
